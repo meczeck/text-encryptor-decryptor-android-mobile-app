@@ -11,25 +11,25 @@ public class CeaserEncryptionActivity extends AppCompatActivity {
 
     TextView encryptedTextView;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ceaser_encryption);
 
+        //To set Activity AppBar Title
         setTitle(R.string.ceaser_encrypt_activity);
 
+        //To get TextView element from UI
         encryptedTextView = findViewById(R.id.textView);
-
+        
+        //To create an Intent object
         Intent intent =  getIntent();
         String textToConvert = intent.getStringExtra("textToConvert");
 
+        //To call the Ceaser method for Decryption
         String encryptedText = ceaserEncrypt(textToConvert, 3);
-        //String decryptedText = decrypt(textToConvert, 3);
+        
         encryptedTextView.setText("Encrypted Text : " + encryptedText);
-
-
-
     }
 
     //Function to Encrypt text by  Ceaser Algorithm
