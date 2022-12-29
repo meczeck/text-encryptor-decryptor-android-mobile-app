@@ -53,7 +53,4 @@ public class CeaserEncryptionActivity extends AppCompatActivity {
 
         return encryptedText.toString();
     }
-
-
-
 }
