@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Text Encryptor/Decryptor</string>
+    <string name="ceaser_encrypt_activity">Ceaser Encryption</string>
+    <string name="ceaser_decrypt_activity">Ceaser Decryption</string>
+    <string name="rot_13_encrypt_activity_title">ROT 13 Encryption</string>
+    <string name="rot_13_decrypt_activity_title">ROT 13 Decryption</string>
+    <string name="text_field_hint">Enter Text</string>
+    <string name="ceaser_encrypt_button">Encrypt By Ceaser</string>
+    <string name="ceaser_decrypt_button">Decrypt By Ceaser</string>
+    <string name="rot_13_encrypt_button">Encrypt By ROT-13</string>
+    <string name="rot_13_decrypt_button">Decrypt By ROT-13</string>
+</resources>
